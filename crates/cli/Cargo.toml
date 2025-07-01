@@ -1,7 +1,7 @@
 [package]
-name = "landscape2"
+name = "landscape2fx"
 description = "Landscape2 CLI tool"
-repository = "https://github.com/cncf/landscape2"
+repository = "https://github.com/VennBC/landscape2fx"
 readme = "../../README.md"
 version.workspace = true
 license.workspace = true

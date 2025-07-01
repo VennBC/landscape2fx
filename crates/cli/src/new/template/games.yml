@@ -2,7 +2,7 @@
 #
 # This file contains the data that will be used in the landscape games.
 #
-# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/games.yml
+# Reference documentation: https://github.com/VennBC/landscape2fx/blob/main/docs/config/games.yml
 
 quiz:
   questions:

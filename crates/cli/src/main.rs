@@ -7,12 +7,12 @@
 
 use anyhow::Result;
 use clap::{Parser, Subcommand};
-use landscape2::build::{build, BuildArgs};
-use landscape2::deploy::s3::{self};
-use landscape2::deploy::{DeployArgs, Provider};
-use landscape2::new::{new, NewArgs};
-use landscape2::serve::{serve, ServeArgs};
-use landscape2::validate::{
+use landscape2fx::build::{build, BuildArgs};
+use landscape2fx::deploy::s3::{self};
+use landscape2fx::deploy::{DeployArgs, Provider};
+use landscape2fx::new::{new, NewArgs};
+use landscape2fx::serve::{serve, ServeArgs};
+use landscape2fx::validate::{
     validate_data, validate_games, validate_guide, validate_settings, Target, ValidateArgs,
 };
 
@@ -22,7 +22,7 @@ use landscape2::validate::{
     version,
     about = "Landscape2 CLI tool
 
-https://github.com/cncf/landscape2#usage"
+https://github.com/VennBC/landscape2fx#usage"
 )]
 struct Cli {
     #[command(subcommand)]

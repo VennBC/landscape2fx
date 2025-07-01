@@ -4,7 +4,7 @@ The Landscape2 project accepts contributions via [GitHub pull requests](https://
 
 ## Issues and discussions
 
-Feature requests, bug reports, and support requests all occur through GitHub issues and discussions. If you would like to file an issue, view existing issues, or comment on an issue please engage with issues at <https://github.com/cncf/landscape2/issues>. You can create new discussions, view existing ones and comment on them at <https://github.com/cncf/landscape2/discussions>.
+Feature requests, bug reports, and support requests all occur through GitHub issues and discussions. If you would like to file an issue, view existing issues, or comment on an issue please engage with issues at <https://github.com/VennBC/landscape2fx/issues>. You can create new discussions, view existing ones and comment on them at <https://github.com/VennBC/landscape2fx/discussions>.
 
 ## Pull Requests
 
@@ -12,7 +12,7 @@ All changes to the source code and documentation are made through [GitHub pull r
 
 If you are unsure if the change will be welcome you may want to file an issue first. The issue can detail the change and you can get feedback from the maintainers prior to starting to make the change.
 
-You can find the existing pull requests at <https://github.com/cncf/landscape2/pulls>.
+You can find the existing pull requests at <https://github.com/VennBC/landscape2fx/pulls>.
 
 ## Developer Certificate of Origin
 

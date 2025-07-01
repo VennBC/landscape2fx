@@ -2272,7 +2272,47 @@ dependencies = [
 ]
 
 [[package]]
-name = "landscape2"
+name = "landscape2-core"
+version = "1.0.0"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "clap",
+ "itertools 0.14.0",
+ "markdown",
+ "mockito",
+ "pretty_assertions",
+ "regex",
+ "reqwest",
+ "serde",
+ "serde_yaml",
+ "tokio",
+ "tracing",
+ "unicode-segmentation",
+ "url",
+ "wasm-bindgen",
+]
+
+[[package]]
+name = "landscape2-quiz"
+version = "1.0.0"
+dependencies = [
+ "cached",
+ "getrandom 0.2.15",
+ "gloo-console",
+ "gloo-net",
+ "landscape2-core",
+ "mockito",
+ "rand 0.8.5",
+ "reqwest",
+ "serde",
+ "tokio",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+]
+
+[[package]]
+name = "landscape2fx"
 version = "1.0.0"
 dependencies = [
  "anyhow",
@@ -2320,29 +2360,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "landscape2-core"
-version = "1.0.0"
-dependencies = [
- "anyhow",
- "chrono",
- "clap",
- "itertools 0.14.0",
- "markdown",
- "mockito",
- "pretty_assertions",
- "regex",
- "reqwest",
- "serde",
- "serde_yaml",
- "tokio",
- "tracing",
- "unicode-segmentation",
- "url",
- "wasm-bindgen",
-]
-
-[[package]]
-name = "landscape2-overlay"
+name = "landscape2fx-overlay"
 version = "1.0.0"
 dependencies = [
  "anyhow",
@@ -2351,24 +2369,6 @@ dependencies = [
  "serde",
  "serde-wasm-bindgen",
  "serde_json",
- "wasm-bindgen",
- "wasm-bindgen-futures",
-]
-
-[[package]]
-name = "landscape2-quiz"
-version = "1.0.0"
-dependencies = [
- "cached",
- "getrandom 0.2.15",
- "gloo-console",
- "gloo-net",
- "landscape2-core",
- "mockito",
- "rand 0.8.5",
- "reqwest",
- "serde",
- "tokio",
  "wasm-bindgen",
  "wasm-bindgen-futures",
 ]

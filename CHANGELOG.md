@@ -224,7 +224,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- **BREAKING**: settings: new required [url field](https://github.com/cncf/landscape2/blob/8728c797eeef557be21181f77e453134b17cdbf7/docs/config/settings.yml#L30-L36) (#475)
+- **BREAKING**: settings: new required [url field](https://github.com/VennBC/landscape2fx/blob/8728c797eeef557be21181f77e453134b17cdbf7/docs/config/settings.yml#L30-L36) (#475)
 - Landscape API endpoints (#475)
 - Provide ability to run GTM containers (#457)
 - Display upcoming events and make them configurable (#468)

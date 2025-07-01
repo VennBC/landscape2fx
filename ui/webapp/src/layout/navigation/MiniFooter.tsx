@@ -19,7 +19,7 @@ const MiniFooter = () => {
                 Powered by{' '}
                 <ExternalLink
                   class="p-0 fw-semibold text-white text-underline"
-                  href="https://github.com/cncf/landscape2"
+                  href="https://github.com/VennBC/landscape2fx"
                 >
                   CNCF interactive landscapes generator
                 </ExternalLink>

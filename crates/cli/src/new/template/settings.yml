@@ -2,7 +2,7 @@
 #
 # This settings file allows customizing some aspects of the landscape.
 #
-# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
+# Reference documentation: https://github.com/VennBC/landscape2fx/blob/main/docs/config/settings.yml
 
 foundation: DEMO
 
@@ -52,7 +52,7 @@ groups:
 
 header:
   links:
-    github: "https://github.com/cncf/landscape2"
+    github: "https://github.com/VennBC/landscape2fx"
   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.svg"
 
 screenshot_width: 1500

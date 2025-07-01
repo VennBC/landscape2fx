@@ -12,5 +12,5 @@ landscape:
             logo: cncf.svg
             name: Item 1
             project: graduated
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn

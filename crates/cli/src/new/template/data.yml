@@ -2,7 +2,7 @@
 #
 # This file contains the data that will be used to generate the landscape.
 #
-# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+# Reference documentation: https://github.com/VennBC/landscape2fx/blob/main/docs/config/data.yml
 
 categories:
   - name: Category 1
@@ -15,7 +15,7 @@ categories:
             homepage_url: https://cncf.io
             logo: cncf.svg
             project: graduated
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
           - name: Item 2
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -23,7 +23,7 @@ categories:
             homepage_url: https://cncf.io
             logo: cncf.svg
             project: sandbox
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
           - name: Item 3
             description: This is the description of item 3
@@ -36,14 +36,14 @@ categories:
             description: This is the description of item 4
             homepage_url: https://cncf.io
             logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
           - name: Item 5
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: This is the description of item 5
             homepage_url: https://cncf.io
             logo: cncf.svg
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
   - name: Category 2
     subcategories:
       - name: Subcategory 2-1
@@ -54,7 +54,7 @@ categories:
             homepage_url: https://cncf.io
             logo: cncf.svg
             project: graduated
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
           - name: Item 7
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -62,7 +62,7 @@ categories:
             homepage_url: https://cncf.io
             logo: cncf.svg
             project: sandbox
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
           - name: Item 8
             description: This is the description of item 8
@@ -76,6 +76,6 @@ categories:
             homepage_url: https://cncf.io
             logo: cncf.svg
             name: Item 9
-            repo_url: https://github.com/cncf/landscape2
+            repo_url: https://github.com/VennBC/landscape2fx
             twitter: https://twitter.com/CloudNativeFdn
 
