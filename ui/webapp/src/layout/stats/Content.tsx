@@ -36,9 +36,9 @@ const Content = () => {
           {/* Projects */}
           <Show when={!isUndefined(stats()!.projects)}>
             <div class="mb-2 mb-lg-5">
-              <div class={`text-dark fw-bold text-uppercase text-center mb-3 mb-lg-4 ${styles.title}`}>Projects</div>
+              <div class={`text-dark fw-bold text-uppercase text-center mb-3 mb-lg-4 ${styles.title}`}>企业统计</div>
               <div class={`text-dark text-center mb-2 mb-lg-4 fw-bold ${styles.subtitle}`}>
-                Distribution by maturity
+                按照成熟度分布
               </div>
               <div class="d-flex flex-row justify-content-center flex-wrap w-100 pt-4">
                 <Box data={stats()!.projects!.projects} label="Total" description="Number total of projects" />

@@ -82,7 +82,7 @@ const CollapsableTable = (props: Props) => {
           </For>
           <tr class={styles.grayCell}>
             <td colspan={2} class="fw-semibold text-uppercase">
-              Total
+              总计
             </td>
             <td class="text-end fw-semibold">
               {sumValues(Object.values(Object.values(props.data).map((i: CategoryValueStats) => i.projects)))}

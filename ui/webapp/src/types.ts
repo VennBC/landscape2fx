@@ -405,8 +405,8 @@ export interface Event {
 }
 
 export enum ViewMode {
-  Grid = 'grid',
-  Card = 'card',
+  Grid = '行业景观图',
+  Card = '企业名片',
 }
 
 export enum FinancesKind {

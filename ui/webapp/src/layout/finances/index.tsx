@@ -439,7 +439,7 @@ const Finances = () => {
               <div class="py-4">
                 <NoData>
                   <>
-                    <div class="fs-4">We couldn't find any data that match the criteria selected.</div>
+                    <div class="fs-4">我们找不到任何符合所选条件的项目。</div>
                     <p class="h6 my-4 lh-base">
                       You can update them and try again or{' '}
                       <button

@@ -110,7 +110,7 @@ const DownloadDropdown = () => {
         <div class={`d-block position-absolute ${styles.arrow}`} />
         <ul class={`m-0 p-0 ${styles.menuList}`}>
           <li>
-            <div class={`text-uppercase text-center fw-semibold p-2 ${styles.dropdownHeader}`}>Landscape</div>
+            <div class={`text-uppercase text-center fw-semibold p-2 ${styles.dropdownHeader}`}>下载景观图</div>
           </li>
           <li>
             <button
@@ -121,7 +121,7 @@ const DownloadDropdown = () => {
 
                 downloadFile(DocType.Landscape, Format.PDF);
               }}
-              aria-label="Download landscape in PDF format"
+              aria-label="下载为 PDF 格式"
             >
               <div class="d-flex flex-row align-items-start">
                 <div class="me-3 position-relative">
@@ -143,7 +143,7 @@ const DownloadDropdown = () => {
                 </div>
                 <div class={styles.contentBtn}>
                   <div class="fw-semibold mb-2">landscape.pdf</div>
-                  <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>Landscape in PDF format</div>
+                  <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>下载为 PDF 格式</div>
                 </div>
               </div>
             </button>
@@ -157,7 +157,7 @@ const DownloadDropdown = () => {
 
                 downloadFile(DocType.Landscape, Format.PNG);
               }}
-              aria-label="Download landscape in PNG format"
+              aria-label="下载为 PNG 格式"
             >
               <div class="d-flex flex-row align-items-start">
                 <div class="me-3 position-relative">
@@ -178,13 +178,13 @@ const DownloadDropdown = () => {
                 </div>
                 <div class={styles.contentBtn}>
                   <div class="fw-semibold mb-2">landscape.png</div>
-                  <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>Landscape in PNG format</div>
+                  <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>下载为 PNG 格式</div>
                 </div>
               </div>
             </button>
           </li>
           <li>
-            <div class={`text-uppercase text-center fw-semibold p-2 ${styles.dropdownHeader}`}>Data files</div>
+            <div class={`text-uppercase text-center fw-semibold p-2 ${styles.dropdownHeader}`}>下载数据文件</div>
           </li>
           <li>
             <button
@@ -211,7 +211,7 @@ const DownloadDropdown = () => {
                 <div class={styles.contentBtn}>
                   <div class="fw-semibold mb-2">items.csv</div>
                   <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>
-                    CSV file that contains information about all items available in the landscape
+                    CSV文件，包含所有企业的信息
                   </div>
                 </div>
               </div>
@@ -242,7 +242,7 @@ const DownloadDropdown = () => {
                 <div class={styles.contentBtn}>
                   <div class="fw-semibold mb-2">projects.csv</div>
                   <div class={`text-wrap text-muted fst-italic ${styles.legend}`}>
-                    CSV file that contains information about all the projects that are part of the foundation
+                    CSV文件，包含此模块所有企业的信息
                   </div>
                 </div>
               </div>

@@ -242,7 +242,7 @@ const Searchbar = (props: Props) => {
         {props.device === 'desktop' && (
           <Show when={value() == ''}>
             <div class={`position-absolute d-flex align-items-center ${styles.desktopPlaceholder}`}>
-              Type <small class={`rounded border mx-1 ${styles.desktopPlaceholderIcon}`}>/</small> to search items
+            使用 <small class={`rounded border mx-1 ${styles.desktopPlaceholderIcon}`}>/</small> 搜索公司
             </div>
           </Show>
         )}
@@ -279,7 +279,7 @@ const Searchbar = (props: Props) => {
             when={itemsList()!.length > 0}
             fallback={
               <div class="p-4 text-center fst-italic text-muted">
-                <small>{error() || `We couldn't find any items that match that criteria.`}</small>
+                <small>{error() || `我们找不到任何符合所选条件的项目。`}</small>
               </div>
             }
           >

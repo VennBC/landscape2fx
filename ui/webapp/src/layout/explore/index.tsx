@@ -612,7 +612,7 @@ const Explore = (props: Props) => {
             <div class="d-none d-lg-flex align-items-center">
               <Show when={viewMode() === ViewMode.Card || (activeGroups() && activeGroups()!.length > 1)}>
                 <div class={styles.btnGroupLegend}>
-                  <small class="text-muted me-2">GROUP:</small>
+                  <small class="text-muted me-2">分组:</small>
                 </div>
                 <div
                   ref={setControlsGroupWrapper}
@@ -751,7 +751,7 @@ const Explore = (props: Props) => {
               <Switch>
                 <Match when={viewMode() === ViewMode.Grid}>
                   <div class={styles.btnGroupLegend}>
-                    <small class="text-muted me-2">ZOOM:</small>
+                    <small class="text-muted me-2">大小:</small>
                   </div>
                   <div class="d-flex flex-row">
                     <div class={`btn-group btn-group-sm ${styles.btnGroup}`}>
@@ -782,7 +782,7 @@ const Explore = (props: Props) => {
                 </Match>
                 <Match when={viewMode() === ViewMode.Card}>
                   <div class={styles.btnGroupLegend}>
-                    <small class="text-muted text-uppercase me-2">Classify:</small>
+                    <small class="text-muted text-uppercase me-2">分类:</small>
                   </div>
                   <select
                     id="classify"
@@ -858,7 +858,7 @@ const Explore = (props: Props) => {
           <Show when={!isUndefined(props.initialData.groups) && activeGroups() && activeGroups()!.length > 1}>
             <div class="d-flex d-lg-none align-items-center mt-3 mt-md-4 mt-lg-0 mb-2 mb-md-3 mb-lg-0">
               <div class={`d-none d-md-block ${styles.btnGroupLegend}`}>
-                <small class="text-muted me-2">GROUP:</small>
+                <small class="text-muted me-2">分组:</small>
               </div>
               <select
                 id="mobile-group"
@@ -906,7 +906,7 @@ const Explore = (props: Props) => {
           <div class="pt-5">
             <NoData>
               <>
-                <div class="fs-4">We couldn't find any items that match the criteria selected.</div>
+                <div class="fs-4">我们找不到任何符合所选条件的项目。</div>
                 <p class="h6 my-4 lh-base">
                   You can update them and try again or{' '}
                   <button
