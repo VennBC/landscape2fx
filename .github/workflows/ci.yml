@@ -16,7 +16,7 @@ jobs:
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@master
         with:
-          toolchain: 1.86.0
+          toolchain: 1.88.0
           components: clippy, rustfmt
       - name: Install wasm-pack
         run: curl https://rustwasm.github.io/wasm-pack/installer/init.sh -sSf | sh
@@ -44,6 +44,9 @@ jobs:
       - name: Run eslint
         working-directory: ./ui/webapp
         run: yarn lint
+      - name: Run tests
+        working-directory: ./ui/webapp
+        run: yarn test
 
   lint-and-test-embed:
     runs-on:
